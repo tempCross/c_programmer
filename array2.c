@@ -20,6 +20,9 @@ int main()
           for( i = 0; i < nc; i++)
                 word[j] = nc;
 }
-          for(i = 0; i < 10; i++)
-            printf("\n%d\n",word[i]);
+          printf("\n\n");
+          for(i = 0; i < 10; i++){
+                for(j = 0; j < word[i]; j ++)
+                  printf("*");
+          printf("\n");
 }
