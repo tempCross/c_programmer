@@ -16,7 +16,7 @@ int main()
     for(i = 0; i <= NUM_CHARS; i++){
       if(char_freq[i] > 0){
         printf("\n%4d: ", i);
-        for(j = 0; j < char_feq[i]; j++)
+        for(j = 0; j < char_freq[i]; j++)
           printf("*");
         printf("\n");
       }  
