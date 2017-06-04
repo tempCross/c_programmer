@@ -14,13 +14,6 @@ int main()
            copy(output,line,len);
            printf("Altered output %s\n",output);
         }
-  int len;
-        while((len = get_line(line,MAXLINE)) > 0){
-           printf("\nThe length is %d\n",len); 
-           printf("The output is: %s\n",line);
-           copy(output,line,len);
-           printf("Altered output %s\n",output);
-        }
 }
 int get_line(char line[], int maxline)
 {
@@ -39,13 +32,6 @@ int get_line(char line[], int maxline)
     ++i;
   }
   line[i] = '\0';
-  return i;
-}
-void copy( char to[], char from[], int len)
-{
-        int i;
-        int j;
-        i = j = 0;
   return i;
 }
 void copy( char to[], char from[], int len)
